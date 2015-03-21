@@ -18,6 +18,7 @@ body {
     right: 0;
     height:40%;
     left: 80%;
+	font-size:15px;
 	background:#ccc;
 	padding:20px;
 	border-bottom:1px solid #666;
@@ -43,6 +44,36 @@ body {
 #docs {    border-width: 0;
     height: 100%;
     width: 100%;
+}
+
+
+#run {
+  background: #ff0000;
+  background-image: -webkit-linear-gradient(top, #ff0000, #c40000);
+  background-image: -moz-linear-gradient(top, #ff0000, #c40000);
+  background-image: -ms-linear-gradient(top, #ff0000, #c40000);
+  background-image: -o-linear-gradient(top, #ff0000, #c40000);
+  background-image: linear-gradient(to bottom, #ff0000, #c40000);
+  -webkit-border-radius: 12;
+  -moz-border-radius: 12;
+  border-radius: 12px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 15px;
+  padding: 10px 20px 10px 20px;
+  margin-left:5px;
+  text-decoration: none;
+}
+
+#run:hover {
+  background: #d10404;
+  background-image: -webkit-linear-gradient(top, #d10404, #a80000);
+  background-image: -moz-linear-gradient(top, #d10404, #a80000);
+  background-image: -ms-linear-gradient(top, #d10404, #a80000);
+  background-image: -o-linear-gradient(top, #d10404, #a80000);
+  background-image: linear-gradient(to bottom, #d10404, #a80000);
+  text-decoration: none;
+  cursor: pointer;
 }
 
 /*----- Tabs -----*/
